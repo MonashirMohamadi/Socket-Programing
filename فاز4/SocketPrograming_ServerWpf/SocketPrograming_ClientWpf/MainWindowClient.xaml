@@ -1,0 +1,42 @@
+﻿<Window x:Class="SocketPrograming_ClientWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SocketPrograming_ClientWpf"
+        mc:Ignorable="d"
+        Title="Client" Height="400" Width="600"  >
+    <Window.Background>
+        <ImageBrush ImageSource="/Image/Win11-background-3-min-scaled.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Image\Win11-background-3-min-scaled.jpg"/>
+        </Grid.Background>
+
+
+        <StackPanel Margin="10" Width="100" HorizontalAlignment="Left">
+            <TextBlock Text="IP:" Foreground="White" />
+            <TextBox Name="txtIP" Text="127.0.0.1"/>
+            <TextBlock Text="Port:" Margin="0,5,0,0" Foreground="White" />
+            <TextBox Name="txtPort" Text="8080"/>
+
+            <Button Content="Connecting" Name="btnConnect" Margin="0,10,0,0" Click="BtnConnect_Click" Background="{x:Null}"  Foreground="White"/>
+
+            <Button Content="Exit" Name="btnExit" Margin="0,10,0,0" Click="btnExit_Click"  Foreground="White" Background="{x:Null}" ></Button>
+            <Button Content="Send" Name="btnSend" Margin="0,10,0,0" Click="BtnSend_Click"  Foreground="White" Background="{x:Null}" />
+            <Button x:Name="btnPrivate" Content="پیام خصوصی" Width="100" Click="BtnPrivate_Click" 
+                   Foreground="White" Margin="0,10,0,0"  Background="{x:Null}" />
+        </StackPanel>
+        <StackPanel Width="400" HorizontalAlignment="Right">
+            <TextBlock HorizontalAlignment="Center" Text="Client" Foreground="White" FontSize="30" Margin="20,20,0,0"></TextBlock>
+
+
+            <TextBlock Text="Server Response :" Margin="0,10,30,0" Foreground="White" FontWeight="Bold" HorizontalAlignment="Right"/>
+            <ListBox Name="txtChatMessage"  Height="200" Width="356"  HorizontalAlignment="Right" Background="{x:Null}" Foreground="White" Margin="10,0,30,0"/>
+            <TextBlock Text="Messahe :" Margin="20,20,20,0" Foreground="White"/>
+            <TextBox Name="txtMessage"  Margin="20,10,20,0"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

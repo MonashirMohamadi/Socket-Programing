@@ -1,0 +1,49 @@
+﻿<Window x:Class="SocketPrograming_ServerWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SocketPrograming_ServerWpf"
+        mc:Ignorable="d"
+        Title="ServerWindow" Height="400" Width="600" >
+<Grid>
+    <Grid.Background>
+        <ImageBrush ImageSource="Image\Win11-background-3-min-scaled.jpg"/>
+    </Grid.Background>
+
+    <StackPanel Width="150" HorizontalAlignment="Left">
+        <TextBlock Text="IP :" Foreground="White" FontSize="18" Margin="10,0,0,0"></TextBlock>
+        <TextBox Name="txtIP" Margin="10,0,0,0" Text="127.0.0.1"></TextBox>
+        <TextBlock Text="Port :" Foreground="White" FontSize="18" Margin="10,0,0,0"></TextBlock>
+        <TextBox Name="txtPort" Margin="10,0,0,0" Text="8080"></TextBox>
+        <Button Width="100" Height="30"
+        HorizontalAlignment="Center" Margin="10,10,0,0"
+        Background="{x:Null}" Content="Stop" Foreground="White" 
+        FontSize="18" Name="btnStop" />
+        <Button Width="100" Height="30"
+                    Background="{x:Null}" Content="Start" Foreground="White" 
+                    FontSize="18" x:Name="btnStart" Margin="10,10,0,0" />
+
+        <Button Width="100" Height="30"
+        HorizontalAlignment="Center" Margin="10,10,0,0"
+        Background="{x:Null}" Content="Exit" Foreground="White" 
+        FontSize="18" Name="btnExit" />
+
+        <TextBlock Text="Users:" Foreground="White" FontSize="18" Margin="30,10,0,0" ></TextBlock>
+        <ListBox Width="126" Height="131" Margin="10" Name="txtListUser" Background="{x:Null}" Foreground="White"></ListBox>
+    </StackPanel>
+
+    <StackPanel HorizontalAlignment="Left" Width="380" Margin="220,0,0,0">
+        <TextBlock Text="Server" Foreground="White" FontSize="30" Margin="30,10,0,0" HorizontalAlignment="Center"></TextBlock>
+        <ListBox Width="300" Height="214" Background="{x:Null}" Name="txtListMessage" Margin="0,10,40,0" Foreground="White" HorizontalAlignment="Right"></ListBox>
+
+        <TextBox  Width="300" Height="30" Name="txtmessage" Margin="10" ></TextBox>
+        <Button Width="60" Height="30"
+HorizontalAlignment="Center" 
+ Content="Send" Foreground="White" 
+FontSize="18" Background="#FF02172F" Name="sendMessage"/>
+
+    </StackPanel>
+</Grid>
+</Window>
+

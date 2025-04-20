@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0FA96F6-B921-4521-B48B-64284D157E86}|SocketPrograming_ClientWpf\\SocketPrograming_ClientWpf.csproj|d:\\\u062F\u0631\u0648\u0633\\socketprograming_serverwpf\\socketprograming_clientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0FA96F6-B921-4521-B48B-64284D157E86}|SocketPrograming_ClientWpf\\SocketPrograming_ClientWpf.csproj|solutionrelative:socketprograming_clientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61AC486-F74A-4484-BA14-38462FB18741}|SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf.csproj|d:\\\u062F\u0631\u0648\u0633\\socketprograming_serverwpf\\socketprograming_serverwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C61AC486-F74A-4484-BA14-38462FB18741}|SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf.csproj|solutionrelative:socketprograming_serverwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0FA96F6-B921-4521-B48B-64284D157E86}|SocketPrograming_ClientWpf\\SocketPrograming_ClientWpf.csproj|d:\\\u062F\u0631\u0648\u0633\\socketprograming_serverwpf\\socketprograming_clientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B0FA96F6-B921-4521-B48B-64284D157E86}|SocketPrograming_ClientWpf\\SocketPrograming_ClientWpf.csproj|solutionrelative:socketprograming_clientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C61AC486-F74A-4484-BA14-38462FB18741}|SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf.csproj|d:\\\u062F\u0631\u0648\u0633\\socketprograming_serverwpf\\socketprograming_serverwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C61AC486-F74A-4484-BA14-38462FB18741}|SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf.csproj|solutionrelative:socketprograming_serverwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ClientWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SocketPrograming_ClientWpf\\MainWindow.xaml",
+              "ToolTip": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ClientWpf\\MainWindow.xaml",
+              "RelativeToolTip": "SocketPrograming_ClientWpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T18:19:34.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SocketPrograming_ServerWpf\\MainWindow.xaml",
+              "ToolTip": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf\\MainWindow.xaml",
+              "RelativeToolTip": "SocketPrograming_ServerWpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T18:18:26.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ClientWpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SocketPrograming_ClientWpf\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ClientWpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SocketPrograming_ClientWpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T23:02:22.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SocketPrograming_ServerWpf\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u062F\u0631\u0648\u0633\\SocketPrograming_ServerWpf\\SocketPrograming_ServerWpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SocketPrograming_ServerWpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwGYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:55:43.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
