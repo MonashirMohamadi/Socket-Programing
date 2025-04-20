@@ -83,4 +83,5 @@ Messages are sent in UTF-8 format with the following structures:
 - Message encryption
 - Chat history storage
 - Multiple chat rooms support
-- Emoji and text formatting support
+- Emoji and text formatting suppor!
+
